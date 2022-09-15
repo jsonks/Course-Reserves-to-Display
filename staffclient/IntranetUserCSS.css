@@ -1,0 +1,12 @@
+/*Rotate chevron on click for collapsey sections*/
+.rotatechevron {
+    -moz-transition: all .05s linear;
+    -webkit-transition: all .05s linear;
+    transition: all .05s linear;
+}
+
+.rotatechevron.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
